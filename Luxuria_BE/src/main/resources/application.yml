@@ -13,10 +13,10 @@ spring:
           starttls:
             enable: true
   datasource:
-    url: jdbc:mysql://localhost:3306/luxuria_clean_db?useSSL=false&serverTimezone=Asia/Ho_Chi_Minh
+    url: jdbc:mysql://localhost:3306/luxuria?useSSL=false&serverTimezone=Asia/Ho_Chi_Minh
     driver-class-name: com.mysql.cj.jdbc.Driver
     username: root
-    password:
+    password: 12345
   jpa:
     show-sql: false
     hibernate:
